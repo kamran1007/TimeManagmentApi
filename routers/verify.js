@@ -4,12 +4,12 @@ const verifytime = (req, res, next) => {
 
 
         {
-            res.status(200).json("green")
-            console.log('green')
+            res.status(200).json("Green")
+            console.log('Green')
         }
         else{
-            res.status(400).json("red")
-            console.log('red')
+            res.status(400).json("Red")
+            console.log('Red')
 
         }
     };
